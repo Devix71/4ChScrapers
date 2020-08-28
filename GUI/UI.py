@@ -85,7 +85,7 @@ class GUI():
         values = ("https://boards.4channel.org", "https://boards.4chan.org")
         self.spin = Spinbox(confy1, values=values, width=25)
         self.spin.grid(column=3, row=1, sticky='W', padx=10, pady=3)
-        self.win.iconbitmap('iconitza.ico')
+        self.win.iconbitmap('icon.ico')
         self.linker = ttk.Button(confy1, text="Scrap Thread", command=self._get_link)
         self.linker.grid(column=4, sticky="W", padx=10, pady=5, row=2)
         self.FName = tk.StringVar()
